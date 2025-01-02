@@ -1,0 +1,253 @@
+body{
+    background: 	#e4d5b7;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .email{
+      display: none; /* Hides the div on mobile */
+    }
+    .number{
+        
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    hr{
+        display:none ;
+    }
+
+    .socials_container{
+        border-radius: 15px;
+    }
+
+    .about-container{
+        width: max-content;
+        height:max-content;
+        max-width: 80vw;
+        padding: 10px;
+   
+    }
+     p{
+        font-weight: 350;
+        font-size: 1.2rem;
+     }
+
+     .serv{
+        text-align:center;
+        text-decoration: underline;
+        font-weight: 400; 
+        
+    }
+
+    .hair-pair1{
+        max-width: 1vw;
+        max-width: 1vh;
+    }
+
+  }
+  @media screen and (min-width: 768px) {
+    .socials_container{
+        border-radius: 15px;
+        width: 50vw;
+        margin-left: 25vw;
+    }
+
+    .number{
+        padding-left:5%;
+    }
+     .email{
+        padding-right:5%;
+     }
+     .about-container{
+        width: max-content;
+        height:max-content;
+        max-width: 65vw;
+        padding: 10px;
+        font-size: 1.75rem;
+    }
+    
+    h3{
+        text-align:center;
+        text-decoration: underline;
+        font-size:1.75rem;
+    }
+    
+    .etc{
+        border: 1px solid black;
+        width: 53vw;
+        margin-left: 22.8%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+  }
+
+
+
+.socials_container{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+   /*width: 50vw;
+    margin-left: 25%;*/
+    
+    
+}
+.fa-facebook{
+    color: #3b5998;
+   font-size:25.5px;
+   border: 2px solid;
+   border-radius: 5px;
+   padding: 5px;
+   margin-left: 7px;
+}
+
+
+.fa-facebook:hover{
+    color: #8b9dc3;
+    transition: 0.3s;
+    font-size: 30px;
+    border: 2.5px solid ;
+}
+.fa-whatsapp{
+    color: #E60023 ;
+   font-size:24px;
+   border: 2px solid;
+   border-radius: 5px;
+   padding: 5px;
+   margin-left: 7px;
+}
+
+.fa-whatsapp:hover{
+    color: #FF385C;
+    transition: 0.3s;
+    font-size: 30px;
+    border: 2.5px solid ;
+}
+.fa-instagram{
+    color: #e4405f;
+   font-size:24px;
+   border: 2px solid;
+   border-radius: 5px;
+   padding: 5px;
+   margin-left: 7px;
+}
+
+.fa-instagram:hover{
+    color: #f77737 ;
+    transition: 0.3s;
+    font-size: 30px;
+    border: 2.5px solid ;
+  
+}
+.fa-thread{
+    color: #00040d;
+    font-size:24px;
+    border: 2px solid ;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 7px;
+    width: 25px;
+    height:24px;
+    margin-top: 5px;
+}
+
+.fa-thread:hover{
+     color: beige;
+    transition: 0.3s;
+    width: 27px;
+    height: 26px;
+    border: 2.5px solid ;
+}
+
+.email_display{
+    display: flex;
+    margin-left:5%;
+    color: black;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 350;
+    
+}
+
+
+
+a{
+    text-decoration: underline black;
+    color: black;
+    font-style: italic;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hair-pair1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 1vw;
+}
+
+
+.hair1{
+    border:1px solid;
+    border-radius: 4px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hair2{
+    border:1px solid;
+    border-radius: 4px;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    background-color: white;
+    padding:5px ;
+}
+
+
+.our-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 9px;
+}
